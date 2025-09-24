@@ -32,7 +32,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22009
           source: ".astro/*"
-          target: "/var/www/r312/"
+          target: "/var/www/r312/server"
           strip_components: 1
           rm: false
           overwrite: true
